@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-      <h1 className="bg-red-600">Hello World</h1>
+    <main className="min-h-screen">
+      <h1 className="">Hello World</h1>
     </main>
   );
 }
