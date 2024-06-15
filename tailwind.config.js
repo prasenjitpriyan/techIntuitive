@@ -7,7 +7,7 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    extend: {
+    colors: {
       myColors: {
         50: "#fff0f0",
         100: "#ffdddd",
@@ -22,6 +22,7 @@ module.exports = {
         950: "#520000",
       },
     },
+    extend: {},
   },
   plugins: [],
 };
