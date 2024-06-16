@@ -9,9 +9,6 @@ import next from "@/assets/images/next.png";
 const Features = () => {
   return (
     <React.Fragment>
-      <h1 className="text-center pt-10 text-5xl font-semibold text-myColors-400">
-        Features
-      </h1>
       <section className="overflow-hidden">
         <div className="max-w-screen-xl 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto py-12 lg:py-24 space-y-24 h-svh flex flex-col justify-center">
           <div className="flex flex-col sm:flex-row mx-auto">
