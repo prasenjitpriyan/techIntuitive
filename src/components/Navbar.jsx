@@ -16,6 +16,7 @@ import {
   TextInput,
 } from "flowbite-react";
 import { AiOutlineSearch } from "react-icons/ai";
+import Love from "./Love";
 
 const Header = () => {
   const [currentUser, setCurrentUser] = useState(false);
@@ -23,8 +24,9 @@ const Header = () => {
   return (
     <Navbar fluid className="bg-myColors-100">
       <NavbarBrand href="/">
-        <h1 className="self-center whitespace-nowrap text-xl font-semibold text-myColors-400">
-          PDBlog
+        <h1 className="self-center whitespace-nowrap text-xl font-semibold text-myColors-400 flex">
+          Techintutive
+          <Love />
         </h1>
       </NavbarBrand>
       <div className="flex md:order-2">

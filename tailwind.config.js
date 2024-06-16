@@ -25,7 +25,15 @@ module.exports = {
         950: "#520000",
       },
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        move: {
+          to: {
+            strokeDashoffset: "1000",
+          },
+        },
+      },
+    },
   },
   plugins: [flowbite.plugin()],
 };

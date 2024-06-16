@@ -7,6 +7,7 @@ import {
   FooterLink,
   FooterLinkGroup,
 } from "flowbite-react";
+import Love from "./Love";
 
 const FooterComponent = () => {
   return (
@@ -14,8 +15,9 @@ const FooterComponent = () => {
       <div className="w-full text-center">
         <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
           <FooterBrand href="/">
-            <h1 className="self-center whitespace-nowrap text-xl font-semibold text-myColors-400">
-              PDBlog
+            <h1 className="self-center whitespace-nowrap text-xl font-semibold text-myColors-400 flex">
+              Techintutive
+              <Love />
             </h1>
           </FooterBrand>
           <FooterLinkGroup>
@@ -48,8 +50,8 @@ const FooterComponent = () => {
         <FooterDivider className="border-myColors-400" />
         <FooterCopyright
           className="text-myColors-400"
-          href="/"
-          by="PDBlog"
+          href="/copyright"
+          by="Techintutive. All rights reserved."
           year={new Date().getFullYear()}
         />
       </div>
