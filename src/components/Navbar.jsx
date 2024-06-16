@@ -21,7 +21,7 @@ const Header = () => {
   const [currentUser, setCurrentUser] = useState(false);
 
   return (
-    <Navbar fluid className="bg-myColors-200">
+    <Navbar fluid className="bg-myColors-100">
       <NavbarBrand href="/">
         <h1 className="self-center whitespace-nowrap text-xl font-semibold text-myColors-400">
           PDBlog
