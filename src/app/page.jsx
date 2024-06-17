@@ -16,7 +16,7 @@ export default function Home() {
         Recent Posts
       </h1>
       <RecentPosts />
-      <div className="flex justify-center items-center pb-10">
+      <div className="flex justify-center items-center pb-20">
         <Link
           href={"/"}
           className="text-myColors-400 text-lg hover:underline text-center"
