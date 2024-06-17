@@ -1,6 +1,7 @@
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import RecentPosts from "@/components/RecentPosts";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -14,6 +15,14 @@ export default function Home() {
         Recent Posts
       </h1>
       <RecentPosts />
+      <div className="flex justify-center items-center pb-10">
+        <Link
+          href={"/"}
+          className="text-myColors-400 text-lg hover:underline text-center"
+        >
+          View all posts
+        </Link>
+      </div>
     </main>
   );
 }

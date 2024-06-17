@@ -1,7 +1,67 @@
-import { Button, Select, TextInput } from "flowbite-react";
-import React from "react";
+"use client";
 
-const BlogPage = () => {
+import React, { useState } from "react";
+import { Button, Select, TextInput } from "flowbite-react";
+import PostCard from "@/components/PostCard";
+
+const BlogPages = () => {
+  const [blogs, setBlogs] = useState([
+    {
+      id: "1",
+      title: "JavaScript Arrow Functions vs Regular Functions",
+      image: "/assets/images/blog.png",
+      category: "javascript",
+    },
+    {
+      id: "1",
+      title: "JavaScript Arrow Functions vs Regular Functions",
+      image: "/assets/images/blog.png",
+      category: "javascript",
+    },
+    {
+      id: "1",
+      title: "JavaScript Arrow Functions vs Regular Functions",
+      image: "/assets/images/blog.png",
+      category: "javascript",
+    },
+    {
+      id: "1",
+      title: "JavaScript Arrow Functions vs Regular Functions",
+      image: "/assets/images/blog.png",
+      category: "javascript",
+    },
+    {
+      id: "1",
+      title: "JavaScript Arrow Functions vs Regular Functions",
+      image: "/assets/images/blog.png",
+      category: "javascript",
+    },
+    {
+      id: "1",
+      title: "JavaScript Arrow Functions vs Regular Functions",
+      image: "/assets/images/blog.png",
+      category: "javascript",
+    },
+    {
+      id: "1",
+      title: "JavaScript Arrow Functions vs Regular Functions",
+      image: "/assets/images/blog.png",
+      category: "javascript",
+    },
+    {
+      id: "1",
+      title: "JavaScript Arrow Functions vs Regular Functions",
+      image: "/assets/images/blog.png",
+      category: "javascript",
+    },
+    {
+      id: "1",
+      title: "JavaScript Arrow Functions vs Regular Functions",
+      image: "/assets/images/blog.png",
+      category: "javascript",
+    },
+  ]);
+
   return (
     <section className="flex flex-col md:flex-row bg-myColors-50 border-t border-myColors-500">
       <div className="p-5 border-b md:border-r md:min-h-screen border-myColors-500">
@@ -51,12 +111,14 @@ const BlogPage = () => {
         <h1 className="text-3xl text-myColors-400 font-semibold sm:border-b border-myColors-500 p-3">
           Posts results:
         </h1>
-        <div className="min-h-screen p-7 flex flex-wrap gap-4 border-b border-myColors-500">
-          <h1>Hello</h1>
+        <div className="flex flex-wrap gap-5 py-10 justify-center">
+          {blogs.map((blog) => (
+            <PostCard key={blog._id} blog={blog} />
+          ))}
         </div>
       </div>
     </section>
   );
 };
 
-export default BlogPage;
+export default BlogPages;
