@@ -92,11 +92,11 @@ const BlogPages = () => {
               id="category"
               className="bg-myColors-50 border border-myColors-300 text-myColors-900 text-sm rounded-lg focus:ring-myColors-500 focus:border-myColors-500 block w-[60%] dark:bg-myColors-700 dark:border-myColors-600 dark:placeholder-myColors-400 dark:focus:ring-myColors-500 dark:focus:border-myColors-500"
             >
-              <option value="uncategorized">Uncategorized</option>
+              <option value="uncategorized">Unsorted</option>
               <option value="reactjs">React.js</option>
               <option value="nextjs">Next.js</option>
               <option value="javascript">JavaScript</option>
-              <option value="javascript">TypeScriptScript</option>
+              <option value="javascript">TypeScript</option>
             </Select>
           </div>
           <Button

@@ -1,5 +1,6 @@
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
+import NewsLetter from "@/components/NewsLetter";
 import RecentPosts from "@/components/RecentPosts";
 import Link from "next/link";
 
@@ -23,6 +24,7 @@ export default function Home() {
           View all posts
         </Link>
       </div>
+      <NewsLetter />
     </main>
   );
 }
