@@ -9,55 +9,55 @@ const BlogPages = () => {
     {
       id: "1",
       title: "JavaScript Arrow Functions vs Regular Functions",
-      image: "/assets/images/blog.png",
+      image: "/blog.png",
       category: "javascript",
     },
     {
       id: "1",
       title: "JavaScript Arrow Functions vs Regular Functions",
-      image: "/assets/images/blog.png",
+      image: "/blog.png",
       category: "javascript",
     },
     {
       id: "1",
       title: "JavaScript Arrow Functions vs Regular Functions",
-      image: "/assets/images/blog.png",
+      image: "/blog.png",
       category: "javascript",
     },
     {
       id: "1",
       title: "JavaScript Arrow Functions vs Regular Functions",
-      image: "/assets/images/blog.png",
+      image: "/blog.png",
       category: "javascript",
     },
     {
       id: "1",
       title: "JavaScript Arrow Functions vs Regular Functions",
-      image: "/assets/images/blog.png",
+      image: "/blog.png",
       category: "javascript",
     },
     {
       id: "1",
       title: "JavaScript Arrow Functions vs Regular Functions",
-      image: "/assets/images/blog.png",
+      image: "/blog.png",
       category: "javascript",
     },
     {
       id: "1",
       title: "JavaScript Arrow Functions vs Regular Functions",
-      image: "/assets/images/blog.png",
+      image: "/blog.png",
       category: "javascript",
     },
     {
       id: "1",
       title: "JavaScript Arrow Functions vs Regular Functions",
-      image: "/assets/images/blog.png",
+      image: "/blog.png",
       category: "javascript",
     },
     {
       id: "1",
       title: "JavaScript Arrow Functions vs Regular Functions",
-      image: "/assets/images/blog.png",
+      image: "/blog.png",
       category: "javascript",
     },
   ]);
@@ -111,7 +111,7 @@ const BlogPages = () => {
         <h1 className="text-3xl text-myColors-400 font-semibold sm:border-b border-myColors-500 p-3">
           Posts results:
         </h1>
-        <div className="flex flex-wrap gap-5 py-10 justify-center">
+        <div className="flex flex-wrap gap-5 py-10 justify-center sm:border-b border-myColors-500">
           {blogs.map((blog) => (
             <PostCard key={blog._id} blog={blog} />
           ))}

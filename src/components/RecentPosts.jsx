@@ -8,19 +8,19 @@ const RecentPosts = () => {
     {
       id: "1",
       title: "JavaScript Arrow Functions vs Regular Functions",
-      image: "/assets/images/blog.png",
+      image: "/blog.png",
       category: "javascript",
     },
     {
       id: "1",
       title: "JavaScript Arrow Functions vs Regular Functions",
-      image: "/assets/images/blog.png",
+      image: "/blog.png",
       category: "javascript",
     },
     {
       id: "1",
       title: "JavaScript Arrow Functions vs Regular Functions",
-      image: "/assets/images/blog.png",
+      image: "/blog.png",
       category: "javascript",
     },
   ]);
