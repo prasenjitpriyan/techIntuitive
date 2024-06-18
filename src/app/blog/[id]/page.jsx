@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import blog from "@/assets/images/next.png";
+import Comments from "@/components/Comments";
 
 const BlogPage = () => {
   return (
@@ -67,6 +68,7 @@ const BlogPage = () => {
           </p>
         </div>
         <div className="max-w-4xl mx-auto w-full"></div>
+        <Comments />
         <div className="flex flex-col justify-center items-center mb-5">
           <h1 className="text-xl mt-5">Recent articles</h1>
           <div className="flex flex-wrap gap-5 mt-5 justify-center"></div>
