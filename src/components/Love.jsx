@@ -8,7 +8,7 @@ const Love = () => {
       viewBox="0 0 24 24"
       strokeWidth="2"
       stroke="#ff5a5a"
-      class="w-8 h-8"
+      className="w-8 h-8"
     >
       <path
         className="animate-[move_35s_linear_infinite]"

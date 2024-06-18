@@ -13,49 +13,49 @@ const BlogPages = () => {
       category: "javascript",
     },
     {
-      id: "1",
+      id: "2",
       title: "JavaScript Arrow Functions vs Regular Functions",
       image: "/blog.png",
       category: "javascript",
     },
     {
-      id: "1",
+      id: "3",
       title: "JavaScript Arrow Functions vs Regular Functions",
       image: "/blog.png",
       category: "javascript",
     },
     {
-      id: "1",
+      id: "4",
       title: "JavaScript Arrow Functions vs Regular Functions",
       image: "/blog.png",
       category: "javascript",
     },
     {
-      id: "1",
+      id: "5",
       title: "JavaScript Arrow Functions vs Regular Functions",
       image: "/blog.png",
       category: "javascript",
     },
     {
-      id: "1",
+      id: "6",
       title: "JavaScript Arrow Functions vs Regular Functions",
       image: "/blog.png",
       category: "javascript",
     },
     {
-      id: "1",
+      id: "7",
       title: "JavaScript Arrow Functions vs Regular Functions",
       image: "/blog.png",
       category: "javascript",
     },
     {
-      id: "1",
+      id: "8",
       title: "JavaScript Arrow Functions vs Regular Functions",
       image: "/blog.png",
       category: "javascript",
     },
     {
-      id: "1",
+      id: "9",
       title: "JavaScript Arrow Functions vs Regular Functions",
       image: "/blog.png",
       category: "javascript",
@@ -113,7 +113,7 @@ const BlogPages = () => {
         </h1>
         <div className="flex flex-wrap gap-5 py-10 justify-center sm:border-b border-myColors-500">
           {blogs.map((blog) => (
-            <PostCard key={blog._id} blog={blog} />
+            <PostCard key={blog.id} blog={blog} />
           ))}
         </div>
       </div>

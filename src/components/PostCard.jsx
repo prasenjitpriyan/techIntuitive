@@ -7,6 +7,7 @@ const PostCard = ({ blog }) => {
     <div className="group relative w-full border border-myColors-500 hover:border-2 h-[400px] overflow-hidden rounded-lg sm:w-[430px] transition-all">
       <Link href="/">
         <Image
+          priority
           width={1000}
           height={1000}
           src={blog.image}

@@ -23,6 +23,7 @@ const Comments = () => {
             alt=""
             width={1000}
             height={1000}
+            priority
           />
           <Link
             href={"/dashboard?tab=profile"}

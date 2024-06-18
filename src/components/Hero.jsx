@@ -13,6 +13,7 @@ const Hero = () => {
           alt="Winding mountain road"
           width={2000}
           height={2000}
+          priority
         />
       </div>
 
